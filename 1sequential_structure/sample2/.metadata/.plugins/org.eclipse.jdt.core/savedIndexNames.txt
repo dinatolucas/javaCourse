@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+/home/dinatolucas/Documentos/JavaCourse/curso/3EstruturaSequencial/exercicios/exercicio2/.metadata/.plugins/org.eclipse.jdt.core
+3218075067.index
+1865797976.index
+900586112.index

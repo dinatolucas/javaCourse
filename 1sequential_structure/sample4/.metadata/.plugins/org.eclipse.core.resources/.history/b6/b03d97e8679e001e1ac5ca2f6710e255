@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		/*Fazer um programa que leia o número de um funcionário, seu número de horas trabalhadas, o valor que recebe por
+hora e calcula o salário desse funcionário. A seguir, mostre o número e o salário do funcionário, com duas casas
+decimais.*/
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int idFunc, horasTrab;
+		double valorRec, salarioFunc;
+		
+		System.out.println("Digite a ID do funcionário: ");
+		idFunc = sc.nextInt();
+		System.out.println("Digite o número de horas trabalhadas do funcionário: ");
+		horasTrab = sc.nextInt();
+		System.out.println("Digite o quanto este funcionário recebe por hora trabalhada: ");
+		valorRec = sc.nextDouble();
+		
+		salarioFunc = horasTrab * valorRec;
+				
+		System.out.println("O funcionário " + idFunc + " deve receber R$%.2f reais por suas " + horasTrab + "horas trabalhadas!",salarioFunc);
+		
+		sc.close();
+	}
+
+}
