@@ -1,4 +1,4 @@
-#**My Java and OOP Course Repository**
+# **My Java and OOP Course Repository**
 
 Welcome to the repository for my Java and Object-Oriented Programming (OOP) course. Here, I am documenting my learning journey, storing example codes, practical projects, and challenging exercises as I progress through the course.
 
