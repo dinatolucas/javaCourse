@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+/home/dinatolucas/Documentos/JavaCourse/curso/4estruturaCondicional/exercicios/exercicio1/.metadata/.plugins/org.eclipse.jdt.core
+650558465.index
+1865797976.index
+900586112.index

@@ -1,0 +1,5 @@
+INDEX VERSION 1.134+/home/dinatolucas/Documentos/JavaCourse/curso/5estruturaRepetitiva/2parteExercicios/.metadata/.plugins/org.eclipse.jdt.core
+3368607021.index
+3218075067.index
+1865797976.index
+650558465.index

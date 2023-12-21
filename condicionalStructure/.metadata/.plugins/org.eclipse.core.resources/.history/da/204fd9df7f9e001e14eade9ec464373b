@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		/*Você deve fazer um programa que leia um valor qualquer e apresente uma mensagem dizendo em qual dos
+seguintes intervalos ([0,25], (25,50], (50,75], (75,100]) este valor se encontra. Obviamente se o valor não estiver em
+nenhum destes intervalos, deverá ser impressa a mensagem “Fora de intervalo”.*/
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Digite um valor inteiro de 0-100: ");
+		int value = sc.nextInt();
+		
+		if(0 <= value || value >= 25) {
+			System.out.println("Seu valor está entre 0 e 25");
+		} else if(25 < value || value >= 50) {
+			System.out.println("Seu valor está entre 25 e 50");
+		} else if(50 < value || value >= 75) {
+			System.out.println("Seu valor está entre 50 e 75");
+		} else if(75 < value || value >= 100) {
+			System.out.println("Seu valor está entre 75 e 100");
+		} else {
+			System.out.println("Seu valor está fora dos intervalos válidos!");
+		}
+		
+		sc.close();
+	}
+
+}

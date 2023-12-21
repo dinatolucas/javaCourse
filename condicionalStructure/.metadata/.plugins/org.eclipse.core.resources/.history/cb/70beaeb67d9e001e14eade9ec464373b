@@ -1,0 +1,32 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		/*Com base na tabela abaixo, escreva um programa que leia o código de um item e a quantidade deste item. A
+seguir, calcule e mostre o valor da conta a pagar.*/
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Digite o código do produto: ");
+		int cod = sc.nextInt();
+		System.out.print("Digite a quantidade do produto: ");
+		int qntdd = sc.nextInt();
+		
+		switch (cod) {
+		case 1:
+			double result = qntdd*4;
+			System.out.printf("Você comprou %d Cachorro-quente(s) e deverá pagar %.2f", qntdd, result);
+			break;
+
+		default:
+			break;
+		}
+	
+		
+		sc.close();
+	}
+
+}
