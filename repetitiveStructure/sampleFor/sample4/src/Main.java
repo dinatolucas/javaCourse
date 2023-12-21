@@ -12,7 +12,6 @@ segundo. Se o denominador for igual a zero, mostrar a mensagem "divisao impossiv
         int repetitions = sc.nextInt();
 
         for (int i = 0; i < repetitions; i++) {
-        	System.out.print("");
             System.out.print("Digite o primeiro número: ");
             int num1 = sc.nextInt();
             System.out.print("Digite o segundo número: ");
