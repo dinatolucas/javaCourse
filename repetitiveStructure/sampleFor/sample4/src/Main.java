@@ -20,7 +20,7 @@ segundo. Se o denominador for igual a zero, mostrar a mensagem "divisao impossiv
             if (num2 == 0) {
                 System.out.println("Divisão impossível! Denominador igual a zero.");
             } else {
-                double divisao = (double) num1 / num2;
+                double divisao = num1 / num2;
                 System.out.printf("A sua divisão resulta em: %.2f%n", divisao);
             }
         }
