@@ -11059,3 +11059,83 @@ java.io.IOException: Stream closed
 	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:249)
 	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:225)
 	at java.base/java.lang.Thread.run(Thread.java:840)
+
+!ENTRY org.eclipse.debug.core 4 125 2023-12-21 12:19:05.432
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: Stream closed
+	at java.base/java.io.BufferedInputStream.getBufIfOpen(BufferedInputStream.java:168)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:281)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:106)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:249)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:225)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+!ENTRY org.eclipse.debug.core 4 125 2023-12-21 12:22:47.767
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: Stream closed
+	at java.base/java.io.BufferedInputStream.getBufIfOpen(BufferedInputStream.java:168)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:281)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:106)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:249)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:225)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+!ENTRY org.eclipse.debug.core 4 125 2023-12-21 12:22:47.779
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: Stream closed
+	at java.base/java.io.BufferedInputStream.getBufIfOpen(BufferedInputStream.java:168)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:281)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:106)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:249)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:225)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+!ENTRY org.eclipse.debug.core 4 125 2023-12-21 12:22:47.791
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: Stream closed
+	at java.base/java.io.BufferedInputStream.getBufIfOpen(BufferedInputStream.java:168)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:281)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:106)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:249)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:225)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+!ENTRY org.eclipse.core.jobs 4 2 2023-12-21 12:22:47.794
+!MESSAGE An internal error occurred during: "org.eclipse.eclemma.internal.core.launching.AgentServer".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.eclemma.internal.ui.EclEmmaUIPlugin.getPreferenceStore()" because the return value of "org.eclipse.eclemma.internal.ui.EclEmmaUIPlugin.getInstance()" is null
+	at org.eclipse.eclemma.internal.ui.UIPreferences.getPreferenceStore(UIPreferences.java:115)
+	at org.eclipse.eclemma.internal.ui.UIPreferences.access$0(UIPreferences.java:114)
+	at org.eclipse.eclemma.internal.ui.UIPreferences$1.getActivateNewSessions(UIPreferences.java:57)
+	at org.eclipse.eclemma.internal.core.launching.AgentServer.run(AgentServer.java:123)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 125 2023-12-21 12:22:47.806
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: Stream closed
+	at java.base/java.io.BufferedInputStream.getBufIfOpen(BufferedInputStream.java:168)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:281)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:106)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:249)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:225)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+!ENTRY org.eclipse.core.jobs 4 2 2023-12-21 12:22:47.809
+!MESSAGE An internal error occurred during: "org.eclipse.eclemma.internal.core.launching.AgentServer".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.eclemma.internal.ui.EclEmmaUIPlugin.getPreferenceStore()" because the return value of "org.eclipse.eclemma.internal.ui.EclEmmaUIPlugin.getInstance()" is null
+	at org.eclipse.eclemma.internal.ui.UIPreferences.getPreferenceStore(UIPreferences.java:115)
+	at org.eclipse.eclemma.internal.ui.UIPreferences.access$0(UIPreferences.java:114)
+	at org.eclipse.eclemma.internal.ui.UIPreferences$1.getActivateNewSessions(UIPreferences.java:57)
+	at org.eclipse.eclemma.internal.core.launching.AgentServer.run(AgentServer.java:123)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
